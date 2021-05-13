@@ -9,6 +9,46 @@ Common.Medal=Медальйон Духов
 Common.LoreNibel=Слова Падшей земли Нибель: 
 Common.LoreNiwen=Слова Духов Нового Нивена: 
 
+--- Config ---
+
+Config.Label.Title=Настройки клиента
+
+--
+Config.Header.Gameplay=Геймплей
+--
+
+Config.Label.PlayerLight=Свет игрока
+Config.Tooltip.PlayerLight=Определяет, светится ли Игрок.\nПо умолчанию: true
+
+Config.Label.PlayerLightGlobal=Глобальный Свет игрока
+Config.Tooltip.PlayerLightGlobal=Определяет, будут ли светиться все остальные игроки по твоим настройкам или по своим.\nПо умолчанию: false
+
+--
+Config.Header.Controls=Управление
+--
+
+Config.Label.StompDelay=Задержка активации Топота
+Config.Tooltip.StompDelay=Время удержания кнопки Топота до его активации.\nПо умолчанию: 0
+
+Config.Label.SoftCrouch=Мягкое приседание
+Config.Tooltip.SoftCrouch=Позволяет двигаться на корточках.\nПо умолчанию: false
+
+Config.Label.SmoothCamera=Плавная камера
+Config.Tooltip.SmoothCamera=Делает движения камеры более плавными при движении игрока.\nПо умолчанию: true
+
+Config.Label.BurrowControls=Управление навыком "Бурение"
+Config.Tooltip.BurrowControls=Определяет клавиши для управления навыком "Бурение".\nПо умолчанию: Mouse
+
+--
+Config.Header.Aesthetics=Внешность Духа
+--
+
+Config.Label.Color1=Цвет Игрока
+Config.Tooltip.Color1=Цвет твоего Духа.\nПо умолчанию: 210, 255, 255
+
+Config.Label.Color2=Цвет Игрока (Вторичный)
+Config.Tooltip.Color2=Вторичный цвет Духа.\nПо умолчанию: 0, 0, 0, 0
+
 --- Sein, Spirit Orbs, Spirit Flame ---
 
 ItemName.SpiritOrb1={$Mods.OriMod.Common.SpiritOrb}
